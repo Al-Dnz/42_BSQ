@@ -6,7 +6,7 @@
 /*   By: adenhez <adenhez@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/04 17:28:18 by adenhez           #+#    #+#             */
-/*   Updated: 2020/10/04 20:27:30 by adenhez          ###   ########.fr       */
+/*   Updated: 2020/10/06 15:35:13 by adenhez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,6 @@ void	check_line(char **map, int line, t_cursor init_pos, t_list **list)
 	int		n;
 	int		x;
 
-	x = init_pos.x;
 	x = init_pos.x;
 	n = 0;
 	while (map[line][x])

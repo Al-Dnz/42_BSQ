@@ -1,4 +1,4 @@
-SRCS	= ./srcs/main.c ./srcs/displayer.c ./srcs/store_map.c ./srcs/list_util.c ./srcs/string_util.c ./srcs/parse_util1.c ./srcs/map_validation.c
+SRCS	= ./srcs/main.c ./srcs/displayer.c ./srcs/store_map.c ./srcs/list_util.c ./srcs/string_util.c ./srcs/parse_util1.c ./srcs/map_validation.c ./srcs/stdin_map.c
 OBJS	= ${SRCS:.c=.o}
 INCS	= includes
 NAME	= bsq
